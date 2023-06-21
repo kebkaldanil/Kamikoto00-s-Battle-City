@@ -1,0 +1,4300 @@
+fileFormatVersion: 2
+guid: a7b132e06e214534b89ced63474b70c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Battle City General Sprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8337a9de40bd3464cb69c57a6e0a6a8e
+      internalID: 215204022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867731c8676c05b42bbce2c111ba641a
+      internalID: 19984789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e543e289819f24fa855d6867fc1cbc
+      internalID: 2003318973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd1461843fe12041a6704ebcdf94e07
+      internalID: 2126800190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384f786d970fffc4f8b46cd582d2423a
+      internalID: 2147121437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a8b25b503e01b45ad583895df6f27b
+      internalID: 1871454610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2947b431c8c0d40aff640a014b9923
+      internalID: 1399785278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -8}
+        - {x: 0, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dafdaf45f28c640b7aa1352a7ec47a
+      internalID: -379506806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f32cbce21e6174a9f9847573d8529c
+      internalID: -2093353099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b092f7f93bbcb804fa43f3f2c93c5690
+      internalID: 544255451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_21
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ce0ea6179e4c047977bb55f72fb8ab
+      internalID: 1056576884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432689e03db9984418c0c470cebb6786
+      internalID: 1139286264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac0f7bf59d7ac940b7db5381eaa8a8b
+      internalID: -1154177380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e85eaad37703b4ab8691cc514c1752
+      internalID: -377241990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e216039159eec040b36b57a7ca14ec5
+      internalID: 598650480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61794571d5803f946b58c83ec0810128
+      internalID: -1239891364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd84c84aa9cc61d4b91849bdb98465f9
+      internalID: -649401062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a77871e1a18c047aad09793030ad61
+      internalID: -1347468444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_42
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -8}
+        - {x: 0, y: 8}
+        - {x: -8, y: 8}
+        - {x: -8, y: -8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e67948a4287614a9242e5ed2f0967a
+      internalID: -1651930604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 0}
+        - {x: 8, y: 0}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f675abc6958b02b439c78251d16be393
+      internalID: 514435311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd433218a45e6344c93ea43eb0201377
+      internalID: -1242159874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5524bd9e2379343a2495fecd4ea826
+      internalID: -117573710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 1
+      bones: []
+      spriteID: d0447da64c91fea40a68d77429039150
+      internalID: 648341877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_47
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff480a3cd33225a408f185960b69bd7f
+      internalID: 626676338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531afacbc6cc30248963025852507def
+      internalID: -680754343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_55
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2cc15721b30e5479b52e3ee3a3d949
+      internalID: -1334356612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ce17434e265f34e95668bb9d3c6ac8
+      internalID: -2051827155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f9fabbe9af00e49a033738c8a1914f
+      internalID: 1348869311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_64
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1596170051a0d243bb6b012216fae22
+      internalID: -1882911417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 7}
+        - {x: 6, y: 7}
+        - {x: 2, y: 6}
+        - {x: -2, y: 6}
+        - {x: -6, y: 7}
+        - {x: -8, y: 7}
+        - {x: -8, y: 2}
+        - {x: -6, y: -2}
+        - {x: -4, y: -4}
+        - {x: -4, y: -7}
+        - {x: 4, y: -7}
+        - {x: 4, y: -4}
+        - {x: 6, y: -2}
+        - {x: 8, y: 2}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 2293c72b2204205448982a2d7e533cc8
+      internalID: 674280424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: -7}
+        - {x: 6, y: -7}
+        - {x: 8, y: -5}
+        - {x: 8, y: 1}
+        - {x: 5, y: 4}
+        - {x: 3, y: 4}
+        - {x: 1, y: 7}
+        - {x: -3, y: 8}
+        - {x: -6, y: 5}
+        - {x: -6, y: 4}
+        - {x: -8, y: 2}
+        - {x: -8, y: -8}
+        - {x: -4, y: -8}
+        - {x: -4, y: -5}
+        - {x: 0, y: -7}
+        - {x: 2, y: -4}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 3a42ddd5de990ba4db575785883797e9
+      internalID: 530568257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_67
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae10a0a70a407439abf2607991f45b
+      internalID: -1615571829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_68
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30141fa7cc19c80409a11aca557ef82d
+      internalID: 706626129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7214d49b8770684684dd3f09561647b
+      internalID: 1005564604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4032c13f694121c40b905ae5c2e6d5bd
+      internalID: -496979767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16aed66172903e4ba1714b84a9397f1
+      internalID: -1749156833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb764f38e4d65614ea3059efdaa319ff
+      internalID: -612903761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43817db5a6019db4b832f39cfd2dd5ef
+      internalID: -1592454305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_86
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54338c79318fd404e9342847881f80f2
+      internalID: -684873267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_87
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631ea0518e047fe41b43ec8bec28a8b2
+      internalID: 2130935523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7339109c19737b240bb77833591b0429
+      internalID: -1497692148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947543284b5904d4a8dc81a1367f3569
+      internalID: 691562853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a12a566bd8f9bc4b9ce720f32dd3635
+      internalID: -675351146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d4b3df984c9504d8ff1b062007aa8d
+      internalID: 1498697285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_98
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a772bd4bcad22a4c890372181cdf8cb
+      internalID: -1167760877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe21743086c324cab5d2defdcb86d5
+      internalID: -1023857353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_106
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2c04bac98c9f946b2d605f8b748adb
+      internalID: -1734798209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: 4}
+        - {x: 0, y: 4}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1bfa859c5b7e5459cea435b6bb40fd
+      internalID: -1189559725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_108
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d961220667785246b2388ad2f6d3539
+      internalID: -901479902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_109
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a38b744682c94dbc7c816c85b4ad0
+      internalID: -99227532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76f3e234b68c3843bed2299917f8d5d
+      internalID: 410684504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_111
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac917b393e85194597902daa0fd6b5a
+      internalID: 1435466725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a663ff0cada0c1c48b4ff9fb7f0bffb7
+      internalID: -795022435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aae5b147b302b488d4cd27a21200ac
+      internalID: -1200584244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_126
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42bd0394d3454b4a86ef2be675eb10d
+      internalID: 950828498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_127
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056cabd96d6c9b642a0888c3a9b3963f
+      internalID: 256472942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_128
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3efc85734a19694694f92d27879d72c
+      internalID: 1342175492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_129
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8689d72e0327cd428d7e43520c322e0
+      internalID: -97850725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33641838f341b44098d536e3eabc8a2
+      internalID: -1720007263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_131
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8070acd3fe7d5734a8a909c5a9b07338
+      internalID: 372877274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_138
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e862ec804fb4b984b867f2876a203c93
+      internalID: -71277919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_139
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f40ac997eaeb64a8682f1bdcefed7d
+      internalID: -245960983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_146
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971e58efb47ffdf429605b1766ed9e1f
+      internalID: -1184081276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_147
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4574a6b297bb64eb8277476eddb083
+      internalID: -152008112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_148
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5779f4e34bd8fbb4eb019fec15162b27
+      internalID: -473787962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_149
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f2024cb3adc341a6bcb7f325f6b1e
+      internalID: 1492472478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_151
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04135f0ba40cfd14faefc89062b36f0b
+      internalID: -1674541043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_152
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7227394900119479d2215e5bd667db
+      internalID: -1466304756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_153
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce11c624e29854e9ae0e86be9ef288
+      internalID: -1732106853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_154
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f29b771482dc6c4299a800c2c366f6c
+      internalID: 297972653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22195a048afe1234fbde7c2e4ba9b838
+      internalID: -1833598311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_156
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d1a2b454d6a4b498e36d98ebd4e055
+      internalID: 853575544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab2d30a7daf0434e869d233eaa0aa48
+      internalID: -133029656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_164
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a3838008a427c4cafb861d16d16cb1
+      internalID: 37687886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_171
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a426c174105d4e40a90015fa58590f3
+      internalID: -44525118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_172
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a574357978834dbb3ae4160cd52db
+      internalID: -2089620903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_173
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b13ba8fc76f9614dbe2cc818c2b426e
+      internalID: 1899056700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_174
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328bcfe90c5f73d46aef6b4779773ae7
+      internalID: -1995059073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_175
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3828144760faec948ace3f198ae497d2
+      internalID: 996947834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_176
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a14ad4a7d4396408d7ca8671aff8e8
+      internalID: 2067593878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_177
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7d83defbf016f40b79df39dd215a62
+      internalID: -1173354939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_178
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a614d74367d3e4399202ca0c65f180
+      internalID: -232952323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_179
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc70c49237767646aeb33013d2cc53a
+      internalID: 547150586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3833e941678ad44a8356068c9007d4
+      internalID: 941456605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_181
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4ede2c3ea1dca47b8c8520b92fce5e
+      internalID: 37657693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8376b33c28296fe4785e9a2efdeaf44d
+      internalID: 1218224373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 6}
+        - {x: -1, y: 6}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802d40072dab5144b97c0d80c64c98a3
+      internalID: 483144715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d995f7f6b03355544b9b14741619fad9
+      internalID: -1918705817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_197
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a294f9821be9d49b991302d28db920
+      internalID: 1768710520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_198
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44fb2d7dcdd09b43bc403672658e7bc
+      internalID: 347468278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_203
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac2273e800a0f74c81cd5e8015d57bf
+      internalID: -444313366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_204
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcedd5c317e48e478f74cd13bc21af2
+      internalID: -873065855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_205
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51de8f50ed44d8d459091fb227a63411
+      internalID: -1820136083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_206
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d9a9153ca327d499cf6ef5c46693a7
+      internalID: -1954249674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_213
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a95d1aee864e44296126b4611d8516
+      internalID: 1681251034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_214
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 4}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 4}
+        - {x: -7, y: 4}
+        - {x: -7, y: -8}
+        - {x: 6, y: -8}
+        - {x: 6, y: 4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326a408be4e94e448a29dcbeaad38211
+      internalID: -2070326987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_221
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be19ba6640f69b34c8995cad853922b4
+      internalID: -101603031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_222
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e28e3d1f832d7479de338f761b2ba7
+      internalID: 1017559423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_227
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227b1e71af32e37469266502ff62f2a5
+      internalID: 489749638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_228
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4651ce56dc7bf4ab533b4b3ddd65b5
+      internalID: -557518853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_229
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24de5f2e4d2ec9740b53797f77c1aa90
+      internalID: -1772373010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_230
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2115aa62740c04a828ec41abdfd12f
+      internalID: 408281897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_237
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000f19ab4335a5d488badde29b4b1e7e
+      internalID: -2116123859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_238
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4b924efbf2fe341b66661e1f4dca49
+      internalID: 1404707045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_245
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada99bcc9cc238e4eaceedc5fc4378a5
+      internalID: 80276578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_246
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a767c4aa75301934b8627aa37169ac8a
+      internalID: 833054160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_247
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ad614c30b78414cb7b8fffa9d83f75
+      internalID: 1896673148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_248
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f405439b622640b6c0157992fe1a2
+      internalID: 191769029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_249
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b76c992a2452347b323a8dcf0007dd
+      internalID: -1572206347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_250
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba59f8bbd2176cb4ebf865f39eef2158
+      internalID: 1891960431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_251
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5e672cae6ee32459f3712e025238ae
+      internalID: -76763913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141c9f865a4440541bb9f0bc096f9f07
+      internalID: 502261957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_253
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdc06fff0a2cce4886b1219b8eea969
+      internalID: 932139957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_260
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc42e021e2fbc0549b24e724e4f62d67
+      internalID: 1690367324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_261
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: -7}
+        - {x: 7, y: 7}
+        - {x: 1, y: 7}
+        - {x: 1, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 7}
+        - {x: -7, y: 7}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048659582f08a2e41ab8ee4da359fcbf
+      internalID: -1825175712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_268
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1de9d957d7f07d44b2978ec13d10a8b
+      internalID: 1740662325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_269
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d99d9b322513341a44cfc8771c9bbf
+      internalID: -390548059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_270
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b6a25ab5b609f489ea5deb06e3f086
+      internalID: 791995361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_271
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c80fb7620ad02458ff9d80afc59862
+      internalID: -1493404267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_272
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87655114221e6641bbaabcf2d211901
+      internalID: 1881669092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_273
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867064ce3194c5148b67873a17677812
+      internalID: -1543517991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_274
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c577b1626ee40445a7c63a1f6c9fb4d
+      internalID: 157755258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_275
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559ef6efe2082db4f9580e32ee8cbd61
+      internalID: 1365657489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_276
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bb6bd11d3c79e45ad6b1c4ff4f1150
+      internalID: 2013912829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_283
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bc3d7eea48b4b4c9559be0e2179760
+      internalID: -227702512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_284
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 5}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -6}
+        - {x: -2, y: -6}
+        - {x: -1, y: -7}
+        - {x: 0, y: -7}
+        - {x: 1, y: -6}
+        - {x: 6, y: -6}
+        - {x: 6, y: 5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d63be4ff5750e43916d73365b90349
+      internalID: -386378476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_291
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0d24622e0bffb4888f35b30dc941ea
+      internalID: 1820390811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_292
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43823c85545fa041963761c6a3ab9e9
+      internalID: -49260696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_293
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265b416c103cf404e9918ad2cd0cb1ff
+      internalID: 1704764635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_294
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab3214e873d24247a7cc43b7059be37
+      internalID: -1476251984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_295
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e3ce61e51962649a98d543dde6d840
+      internalID: 1651039365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_296
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ab23d30bb196147a851fd539ff91f8
+      internalID: -789229441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_297
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8694dd147f6f80b4e96dda0ab062aec0
+      internalID: 1627641829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_298
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7144925cd31ec64a941bc9cb1a91191
+      internalID: -34823102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_299
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ec0d86c4475f241bd49a8603fac352
+      internalID: 401034602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_306
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b043298219a8e4094b9f9613af25bb
+      internalID: 1123883338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_307
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 6}
+        - {x: 0, y: 6}
+        - {x: 0, y: 8}
+        - {x: -1, y: 8}
+        - {x: -1, y: 6}
+        - {x: -7, y: 6}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f941db1969522a4cb8a264433ab995d
+      internalID: 522010169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_314
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878574eead81ef14689f592c72d3d7db
+      internalID: -493979882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_315
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a5e7be2d3f24418cfa4dbeeeeec14
+      internalID: -188210735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_316
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d6c18828f4cf4db61bab8650b5543
+      internalID: -396319288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_317
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d95c9107d0dae14da925b09ff1e751a
+      internalID: 1790656722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d3cd38ce6ccc948801452504df7028
+      internalID: -2053442295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_325
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -7}
+        - {x: 6, y: 5}
+        - {x: 1, y: 5}
+        - {x: 1, y: 8}
+        - {x: -2, y: 8}
+        - {x: -2, y: 5}
+        - {x: -7, y: 5}
+        - {x: -7, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d866a5da4cd31d4bb88f47a7a0b9428
+      internalID: 1923514422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_332
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1043b5f82ef314d97cf4ecbcc9fc88
+      internalID: 702539562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_333
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40646bb7b10dd5e4788ba36b207e1bc9
+      internalID: -1391292161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_334
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bad18951755dd4b9f4d6fac1ffd7a9
+      internalID: 1533130553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_335
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c9730532f0da143bb194bf94da7b54
+      internalID: -853976239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_342
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2938a73a43aae24ea276ec12d8ccff3
+      internalID: 1135881754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_343
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7, y: 8}
+        - {x: -7, y: -7}
+        - {x: 6, y: -7}
+        - {x: 6, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c2eb3e96340bb42bd61a3c36c84cb7
+      internalID: 142977526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Big Explosion_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e77fad7fbc6d7c4584448a4d333cd2f
+      internalID: 1413954591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Big Explosion_1
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b582545fa6cc3314ca01310001889cca
+      internalID: 1139830953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Battle City General Sprites_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b154a62f64068d4c8568dce161e3d1e
+      internalID: -1777511740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Battle City General Big Explosion_1: 1139830953
+      Battle City General Big Explosion_2: 1413954591
+      Battle City General Sprites_0: 215204022
+      Battle City General Sprites_1: 19984789
+      Battle City General Sprites_10: -725120483
+      Battle City General Sprites_100: -1786517538
+      Battle City General Sprites_101: 1155173369
+      Battle City General Sprites_102: -1642037686
+      Battle City General Sprites_103: -1655512904
+      Battle City General Sprites_104: -1905422100
+      Battle City General Sprites_105: -1023857353
+      Battle City General Sprites_106: -1734798209
+      Battle City General Sprites_107: -1189559725
+      Battle City General Sprites_108: -901479902
+      Battle City General Sprites_109: -99227532
+      Battle City General Sprites_11: -1646046673
+      Battle City General Sprites_110: 410684504
+      Battle City General Sprites_111: 1435466725
+      Battle City General Sprites_112: -2035804548
+      Battle City General Sprites_113: -1032271773
+      Battle City General Sprites_114: -802763744
+      Battle City General Sprites_115: 551475537
+      Battle City General Sprites_116: -1839942197
+      Battle City General Sprites_117: 1913950316
+      Battle City General Sprites_118: -795022435
+      Battle City General Sprites_119: -1200584244
+      Battle City General Sprites_12: 1125382664
+      Battle City General Sprites_120: 1697551206
+      Battle City General Sprites_121: -1232754878
+      Battle City General Sprites_122: -1858907523
+      Battle City General Sprites_123: 1121577778
+      Battle City General Sprites_124: 120198421
+      Battle City General Sprites_125: 1028293119
+      Battle City General Sprites_126: 950828498
+      Battle City General Sprites_127: 256472942
+      Battle City General Sprites_128: 1342175492
+      Battle City General Sprites_129: -97850725
+      Battle City General Sprites_13: 1339305447
+      Battle City General Sprites_130: -1720007263
+      Battle City General Sprites_131: 372877274
+      Battle City General Sprites_132: -83766968
+      Battle City General Sprites_133: -995035638
+      Battle City General Sprites_134: -621967809
+      Battle City General Sprites_135: -2005764109
+      Battle City General Sprites_136: 783371880
+      Battle City General Sprites_137: 1031460461
+      Battle City General Sprites_138: -71277919
+      Battle City General Sprites_139: -245960983
+      Battle City General Sprites_14: -1736230058
+      Battle City General Sprites_140: -1400974546
+      Battle City General Sprites_141: -1015669657
+      Battle City General Sprites_142: -1699105947
+      Battle City General Sprites_143: -854880744
+      Battle City General Sprites_144: -1893170853
+      Battle City General Sprites_145: 1512275705
+      Battle City General Sprites_146: -1184081276
+      Battle City General Sprites_147: -152008112
+      Battle City General Sprites_148: -473787962
+      Battle City General Sprites_149: 1492472478
+      Battle City General Sprites_150: -1777511740
+      Battle City General Sprites_151: -1674541043
+      Battle City General Sprites_152: -1466304756
+      Battle City General Sprites_153: -1732106853
+      Battle City General Sprites_154: 297972653
+      Battle City General Sprites_155: -1833598311
+      Battle City General Sprites_156: 853575544
+      Battle City General Sprites_157: -1609048770
+      Battle City General Sprites_158: 784534306
+      Battle City General Sprites_159: 238661382
+      Battle City General Sprites_16: 2147121437
+      Battle City General Sprites_160: -1172746332
+      Battle City General Sprites_161: 877329039
+      Battle City General Sprites_162: 523684419
+      Battle City General Sprites_163: -133029656
+      Battle City General Sprites_164: 37687886
+      Battle City General Sprites_165: -1820525156
+      Battle City General Sprites_166: -1423857336
+      Battle City General Sprites_167: -977434158
+      Battle City General Sprites_168: -1813611292
+      Battle City General Sprites_169: 1254996653
+      Battle City General Sprites_17: 1871454610
+      Battle City General Sprites_170: -763186441
+      Battle City General Sprites_171: -44525118
+      Battle City General Sprites_172: -2089620903
+      Battle City General Sprites_173: 1899056700
+      Battle City General Sprites_174: -1995059073
+      Battle City General Sprites_175: 996947834
+      Battle City General Sprites_176: 2067593878
+      Battle City General Sprites_177: -1173354939
+      Battle City General Sprites_178: -232952323
+      Battle City General Sprites_179: 547150586
+      Battle City General Sprites_18: 1399785278
+      Battle City General Sprites_180: 941456605
+      Battle City General Sprites_181: 37657693
+      Battle City General Sprites_182: -1338333561
+      Battle City General Sprites_183: 210416315
+      Battle City General Sprites_184: -1296856854
+      Battle City General Sprites_185: -1539692805
+      Battle City General Sprites_186: 211765127
+      Battle City General Sprites_187: -1075583162
+      Battle City General Sprites_188: 1218224373
+      Battle City General Sprites_189: 483144715
+      Battle City General Sprites_19: -379506806
+      Battle City General Sprites_190: -182457031
+      Battle City General Sprites_191: -817800766
+      Battle City General Sprites_192: 984266980
+      Battle City General Sprites_193: 895384733
+      Battle City General Sprites_194: -196070522
+      Battle City General Sprites_195: -69330069
+      Battle City General Sprites_196: -1918705817
+      Battle City General Sprites_197: 1768710520
+      Battle City General Sprites_198: 347468278
+      Battle City General Sprites_199: 214630312
+      Battle City General Sprites_20: -2093353099
+      Battle City General Sprites_200: -653739857
+      Battle City General Sprites_201: 1089666371
+      Battle City General Sprites_202: 804538326
+      Battle City General Sprites_203: -444313366
+      Battle City General Sprites_204: -873065855
+      Battle City General Sprites_205: -1820136083
+      Battle City General Sprites_206: -1954249674
+      Battle City General Sprites_207: 1411427412
+      Battle City General Sprites_208: -768378942
+      Battle City General Sprites_209: -624463227
+      Battle City General Sprites_21: 1056576884
+      Battle City General Sprites_210: 966910703
+      Battle City General Sprites_211: -2082744709
+      Battle City General Sprites_212: 223446132
+      Battle City General Sprites_213: 1681251034
+      Battle City General Sprites_214: -2070326987
+      Battle City General Sprites_215: -547844378
+      Battle City General Sprites_216: -1972692411
+      Battle City General Sprites_217: -1366603288
+      Battle City General Sprites_218: -1403407185
+      Battle City General Sprites_219: -1791230942
+      Battle City General Sprites_22: 1139286264
+      Battle City General Sprites_220: 2075389738
+      Battle City General Sprites_221: -101603031
+      Battle City General Sprites_222: 1017559423
+      Battle City General Sprites_223: -1441003860
+      Battle City General Sprites_224: -1830966621
+      Battle City General Sprites_225: 1283452802
+      Battle City General Sprites_226: -1711043138
+      Battle City General Sprites_227: 489749638
+      Battle City General Sprites_228: -557518853
+      Battle City General Sprites_229: -1772373010
+      Battle City General Sprites_23: 544255451
+      Battle City General Sprites_230: 408281897
+      Battle City General Sprites_231: 1611278132
+      Battle City General Sprites_232: 1216941866
+      Battle City General Sprites_233: 346160256
+      Battle City General Sprites_234: 1369366326
+      Battle City General Sprites_235: -1343779539
+      Battle City General Sprites_236: 1403849731
+      Battle City General Sprites_237: -2116123859
+      Battle City General Sprites_238: 1404707045
+      Battle City General Sprites_239: -740974006
+      Battle City General Sprites_24: -1154177380
+      Battle City General Sprites_240: -1126870803
+      Battle City General Sprites_241: -1923488711
+      Battle City General Sprites_242: 1912214697
+      Battle City General Sprites_243: -1394825641
+      Battle City General Sprites_244: -2124036344
+      Battle City General Sprites_245: 80276578
+      Battle City General Sprites_246: 833054160
+      Battle City General Sprites_247: 1896673148
+      Battle City General Sprites_248: 191769029
+      Battle City General Sprites_249: -1572206347
+      Battle City General Sprites_25: 1266291636
+      Battle City General Sprites_250: 1891960431
+      Battle City General Sprites_251: -76763913
+      Battle City General Sprites_252: 502261957
+      Battle City General Sprites_253: 932139957
+      Battle City General Sprites_254: -1223165652
+      Battle City General Sprites_255: -1769851290
+      Battle City General Sprites_256: 344486224
+      Battle City General Sprites_257: -1223961756
+      Battle City General Sprites_258: 1220883006
+      Battle City General Sprites_259: -751284420
+      Battle City General Sprites_26: 1754795830
+      Battle City General Sprites_260: 1690367324
+      Battle City General Sprites_261: -1825175712
+      Battle City General Sprites_262: -666450300
+      Battle City General Sprites_263: 191500202
+      Battle City General Sprites_264: 1657207626
+      Battle City General Sprites_265: -805358514
+      Battle City General Sprites_266: 364856855
+      Battle City General Sprites_267: -699489718
+      Battle City General Sprites_268: 1740662325
+      Battle City General Sprites_269: -390548059
+      Battle City General Sprites_27: -1818976491
+      Battle City General Sprites_270: 791995361
+      Battle City General Sprites_271: -1493404267
+      Battle City General Sprites_272: 1881669092
+      Battle City General Sprites_273: -1543517991
+      Battle City General Sprites_274: 157755258
+      Battle City General Sprites_275: 1365657489
+      Battle City General Sprites_276: 2013912829
+      Battle City General Sprites_277: 777813126
+      Battle City General Sprites_278: 1629372046
+      Battle City General Sprites_279: 996070138
+      Battle City General Sprites_28: 1917618158
+      Battle City General Sprites_280: 1684924860
+      Battle City General Sprites_281: -374815044
+      Battle City General Sprites_282: -716058030
+      Battle City General Sprites_283: -227702512
+      Battle City General Sprites_284: -386378476
+      Battle City General Sprites_285: 741866683
+      Battle City General Sprites_286: -394549644
+      Battle City General Sprites_287: 1448234223
+      Battle City General Sprites_288: -2056969208
+      Battle City General Sprites_289: 545595327
+      Battle City General Sprites_29: -357666605
+      Battle City General Sprites_290: 1226152127
+      Battle City General Sprites_291: 1820390811
+      Battle City General Sprites_292: -49260696
+      Battle City General Sprites_293: 1704764635
+      Battle City General Sprites_294: -1476251984
+      Battle City General Sprites_295: 1651039365
+      Battle City General Sprites_296: -789229441
+      Battle City General Sprites_297: 1627641829
+      Battle City General Sprites_298: -34823102
+      Battle City General Sprites_299: 401034602
+      Battle City General Sprites_3: 2126986195
+      Battle City General Sprites_30: 1556508705
+      Battle City General Sprites_300: 46898094
+      Battle City General Sprites_301: 2035818110
+      Battle City General Sprites_302: -1574785301
+      Battle City General Sprites_303: -2127636505
+      Battle City General Sprites_304: -287385889
+      Battle City General Sprites_305: -1496861338
+      Battle City General Sprites_306: 1123883338
+      Battle City General Sprites_307: 522010169
+      Battle City General Sprites_308: 451505503
+      Battle City General Sprites_309: 1681621168
+      Battle City General Sprites_31: -377241990
+      Battle City General Sprites_310: -1305363548
+      Battle City General Sprites_311: 1066887567
+      Battle City General Sprites_312: -1578295423
+      Battle City General Sprites_313: -239517992
+      Battle City General Sprites_314: -493979882
+      Battle City General Sprites_315: -188210735
+      Battle City General Sprites_316: -396319288
+      Battle City General Sprites_317: 1790656722
+      Battle City General Sprites_318: 1625132012
+      Battle City General Sprites_319: -964536074
+      Battle City General Sprites_32: 598650480
+      Battle City General Sprites_320: 2049369833
+      Battle City General Sprites_321: 1541331431
+      Battle City General Sprites_322: 1302413342
+      Battle City General Sprites_323: 2092408888
+      Battle City General Sprites_324: -2053442295
+      Battle City General Sprites_325: 1923514422
+      Battle City General Sprites_326: -528859557
+      Battle City General Sprites_327: 1580932335
+      Battle City General Sprites_328: -1589767947
+      Battle City General Sprites_329: -2074215849
+      Battle City General Sprites_33: -529806549
+      Battle City General Sprites_330: -853058020
+      Battle City General Sprites_331: 500592490
+      Battle City General Sprites_332: 702539562
+      Battle City General Sprites_333: -1391292161
+      Battle City General Sprites_334: 1533130553
+      Battle City General Sprites_335: -853976239
+      Battle City General Sprites_336: -458533316
+      Battle City General Sprites_337: -1326176626
+      Battle City General Sprites_338: 221189290
+      Battle City General Sprites_339: 761390342
+      Battle City General Sprites_34: -405388323
+      Battle City General Sprites_340: -670179748
+      Battle City General Sprites_341: 129614665
+      Battle City General Sprites_342: 1135881754
+      Battle City General Sprites_343: 142977526
+      Battle City General Sprites_344: 1489774129
+      Battle City General Sprites_345: 1276740372
+      Battle City General Sprites_346: -1086783876
+      Battle City General Sprites_347: 225263543
+      Battle City General Sprites_348: -1481698296
+      Battle City General Sprites_349: -274013585
+      Battle City General Sprites_35: -124061194
+      Battle City General Sprites_36: 834780477
+      Battle City General Sprites_37: -993732060
+      Battle City General Sprites_38: 1683965823
+      Battle City General Sprites_39: -1239891364
+      Battle City General Sprites_4: -1855640006
+      Battle City General Sprites_40: -649401062
+      Battle City General Sprites_41: -1347468444
+      Battle City General Sprites_42: -1651930604
+      Battle City General Sprites_43: 514435311
+      Battle City General Sprites_44: -1242159874
+      Battle City General Sprites_45: -117573710
+      Battle City General Sprites_46: 648341877
+      Battle City General Sprites_47: 626676338
+      Battle City General Sprites_48: 1038929582
+      Battle City General Sprites_49: -1723328872
+      Battle City General Sprites_5: 805101070
+      Battle City General Sprites_50: 376226112
+      Battle City General Sprites_51: 545004498
+      Battle City General Sprites_52: 1153469809
+      Battle City General Sprites_53: 228891114
+      Battle City General Sprites_54: -680754343
+      Battle City General Sprites_55: -1334356612
+      Battle City General Sprites_56: -973576740
+      Battle City General Sprites_57: -1829135522
+      Battle City General Sprites_58: -848283236
+      Battle City General Sprites_59: 1536745826
+      Battle City General Sprites_6: -1280821890
+      Battle City General Sprites_60: -1897760955
+      Battle City General Sprites_61: -796857942
+      Battle City General Sprites_62: -2051827155
+      Battle City General Sprites_63: 1348869311
+      Battle City General Sprites_64: -1882911417
+      Battle City General Sprites_65: 674280424
+      Battle City General Sprites_66: 530568257
+      Battle City General Sprites_67: -1615571829
+      Battle City General Sprites_68: 706626129
+      Battle City General Sprites_69: 1005564604
+      Battle City General Sprites_7: -792511485
+      Battle City General Sprites_70: -496979767
+      Battle City General Sprites_71: 566177630
+      Battle City General Sprites_72: -2007411722
+      Battle City General Sprites_73: 444667419
+      Battle City General Sprites_74: 1648302246
+      Battle City General Sprites_75: 711395277
+      Battle City General Sprites_76: 1230713723
+      Battle City General Sprites_77: -1749156833
+      Battle City General Sprites_78: -612903761
+      Battle City General Sprites_79: 840116841
+      Battle City General Sprites_8: 2003318973
+      Battle City General Sprites_80: -1172757829
+      Battle City General Sprites_81: 1092594126
+      Battle City General Sprites_82: 201208363
+      Battle City General Sprites_83: -1938105406
+      Battle City General Sprites_84: 945344145
+      Battle City General Sprites_85: -1592454305
+      Battle City General Sprites_86: -684873267
+      Battle City General Sprites_87: 2130935523
+      Battle City General Sprites_88: -1497692148
+      Battle City General Sprites_89: 691562853
+      Battle City General Sprites_9: 2126800190
+      Battle City General Sprites_90: -675351146
+      Battle City General Sprites_91: -1050540798
+      Battle City General Sprites_92: 655229829
+      Battle City General Sprites_93: -1775516263
+      Battle City General Sprites_94: 115759569
+      Battle City General Sprites_95: 1006961578
+      Battle City General Sprites_96: 1034457602
+      Battle City General Sprites_97: 1498697285
+      Battle City General Sprites_98: -1167760877
+      Battle City General Sprites_99: 1308128394
+      Projectile: 772633749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
