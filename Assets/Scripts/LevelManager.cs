@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class LevelManager : MonoBehaviour
 {
@@ -105,7 +107,7 @@ public class LevelManager : MonoBehaviour
     }
     void BuildLevel()
     {
-        FindAnyObjectByType<Canvas>().enabled = false;
+        FindObjectOfType<Canvas>().enabled = false;
         ClearManager();
         map = new GameObject[levelSize.x, levelSize.y];
         Enemies = new List<AI_TankControl>(enemiesOnMapMax);
@@ -294,18 +296,19 @@ public class LevelManager : MonoBehaviour
     }
     public void Win()
     {
-        FindAnyObjectByType<Canvas>().enabled = true;
-        FindAnyObjectByType<ShowMessage>().Show("You won!");
+        FindObjectOfType<Canvas>().enabled = true;
+        FindObjectOfType<ShowMessage>().Show("You won!");
         ClearManager();
     }
     public void Lose()
     {
-        FindAnyObjectByType<Canvas>().enabled = true;
-        FindAnyObjectByType<ShowMessage>().Show("You lose!");
+        FindObjectOfType<Canvas>().enabled = true;
+        FindObjectOfType<ShowMessage>().Show("You lose!");
         ClearManager();
     }
     public void Restart()
     {
+        FindObjectOfType<EventSystem>()?.SetSelectedGameObject(null);
         BuildLevel();
     }
 }

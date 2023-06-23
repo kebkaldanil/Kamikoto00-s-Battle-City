@@ -13,6 +13,7 @@ public class Base : MonoBehaviour
         health = GetComponent<Health>();
         animator = GetComponent<Animator>();
         health.BeforeDeath += BeforeDeath;
+        health.OnDeath += OnDeath;
     }
 
     private void BeforeDeath()
@@ -21,7 +22,7 @@ public class Base : MonoBehaviour
         health.health = 1000;
     }
 
-    void OnDestroy()
+    private void OnDeath()
     {
         LevelManager.Instance?.Lose();
     }

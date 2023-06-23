@@ -19,7 +19,11 @@ public class AfterExplosion : StateMachineBehaviour
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Destroy(animator.gameObject);
+
+        if (animator.gameObject.TryGetComponent(out Health health))
+        {
+            health.health = 0;
+        }
     }
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
